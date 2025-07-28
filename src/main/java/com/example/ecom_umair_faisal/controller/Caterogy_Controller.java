@@ -24,7 +24,7 @@ public class Caterogy_Controller {
     @PutMapping("/updateCateory")
         public Category updateCategory() {
             System.out.println(categories);
-            return categories.get(1);
+            return categories.get(2);
         }
 
     @DeleteMapping("/deleteCategory")
