@@ -8,7 +8,7 @@ public class Category {
     String id;
     String name;
 
-    public void method(){
+    public void method() {
         System.out.println("hi i am a bean of class category");
     }
 
